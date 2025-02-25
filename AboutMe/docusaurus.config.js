@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'That\`s Me',
+  title: 'About Me',
   tagline: 'Guess who am I',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ragamuffin85.github.io/',
+  url: 'https://milanskip.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ThatsMe/',
+  baseUrl: '/AboutMe/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ragamuffin85', // Usually your GitHub org/user name.
-  projectName: 'ThatsMe', // Usually your repo name.
+  organizationName: 'milanskip', // Usually your GitHub org/user name.
+  projectName: 'AboutMe', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -91,7 +91,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'That\'s me',
+            label: 'About me',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
