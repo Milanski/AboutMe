@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthats_me=self.webpackChunkthats_me||[]).push([[9564],{9971:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/ThatsMe/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/ThatsMe/blog","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
