@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ragamuffin85.github.io/ThatsMe/blog</id>
-    <title>That`s Me Blog</title>
+    <id>https://milanskip.github.io/AboutMe/blog</id>
+    <title>About Me Blog</title>
     <updated>2025-02-25T10:25:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ragamuffin85.github.io/ThatsMe/blog"/>
-    <subtitle>That`s Me Blog</subtitle>
-    <icon>https://ragamuffin85.github.io/ThatsMe/img/favicon.ico</icon>
+    <link rel="alternate" href="https://milanskip.github.io/AboutMe/blog"/>
+    <subtitle>About Me Blog</subtitle>
+    <icon>https://milanskip.github.io/AboutMe/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Create a Blog Post]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-blog-post</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-blog-post"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-blog-post</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-blog-post"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus creates a <strong>page for each blog post</strong>, but also a <strong>blog index page</strong>, a <strong>tag system</strong>, an <strong>RSS</strong> feed...</p>
@@ -39,8 +39,8 @@ Feel free to play around and edit this post as much as you like.
     </entry>
     <entry>
         <title type="html"><![CDATA[Create a Document]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-document</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-document"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-document</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-document"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Documents are groups of pages connected through:]]></summary>
         <content type="html"><![CDATA[<p>Documents are <strong>groups of pages</strong> connected through:</p>
@@ -85,8 +85,8 @@ This is my **first Docusaurus document**!
     </entry>
     <entry>
         <title type="html"><![CDATA[Create a Page]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-page</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-page"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-page</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-page"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Add Markdown or React files to src/pages to create a standalone page:]]></summary>
         <content type="html"><![CDATA[<p>Add <strong>Markdown or React</strong> files to <code>src/pages</code> to create a <strong>standalone page</strong>:</p>
@@ -120,8 +120,8 @@ This is a Markdown page
     </entry>
     <entry>
         <title type="html"><![CDATA[Deploy your site]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/deploy-your-site</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/deploy-your-site"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-basics/deploy-your-site</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/deploy-your-site"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus is a static-site-generator (also called Jamstack).]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus is a <strong>static-site-generator</strong> (also called <strong><a href="https://jamstack.org/">Jamstack</a></strong>).</p>
@@ -140,8 +140,8 @@ This is a Markdown page
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown Features]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/markdown-features</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/markdown-features"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-basics/markdown-features</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/markdown-features"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus supports Markdown and a few additional features.]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus supports <strong><a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a></strong> and a few <strong>additional features</strong>.</p>
@@ -166,7 +166,7 @@ Markdown text with [links](./hello.md)
 </code></pre>
 <pre><code class="language-md">Let's see how to [Create a page](./create-a-page.md).
 </code></pre>
-<p><strong>Result:</strong> Let's see how to <a href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-basics/create-a-page">Create a page</a>.</p>
+<p><strong>Result:</strong> Let's see how to <a href="https://milanskip.github.io/AboutMe/blog/tutorial-basics/create-a-page">Create a page</a>.</p>
 <h2 id="images">Images</h2>
 <p>Regular Markdown images are supported.</p>
 <p>You can use absolute paths to reference images in the static directory (<code>static/img/docusaurus.png</code>):</p>
@@ -232,8 +232,8 @@ This is &lt;Highlight color="#1877F2"&gt;Facebook blue&lt;/Highlight&gt; !
     </entry>
     <entry>
         <title type="html"><![CDATA[Manage Docs Versions]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-extras/manage-docs-versions</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-extras/manage-docs-versions"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-extras/manage-docs-versions</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-extras/manage-docs-versions"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus can manage multiple versions of your docs.]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus can manage multiple versions of your docs.</p>
@@ -265,7 +265,7 @@ This is &lt;Highlight color="#1877F2"&gt;Facebook blue&lt;/Highlight&gt; !
 };
 </code></pre>
 <p>The docs version dropdown appears in your navbar:</p>
-<p><img alt="Docs Version Dropdown" src="https://ragamuffin85.github.io/ThatsMe/assets/images/docsVersionDropdown-35e13cbe46c9923327f30a76a90bff3b.png" width="370" height="302"></p>
+<p><img alt="Docs Version Dropdown" src="https://milanskip.github.io/AboutMe/assets/images/docsVersionDropdown-35e13cbe46c9923327f30a76a90bff3b.png" width="370" height="302"></p>
 <h2 id="update-an-existing-version">Update an existing version</h2>
 <p>It is possible to edit versioned docs in their respective folder:</p>
 <ul>
@@ -275,8 +275,8 @@ This is &lt;Highlight color="#1877F2"&gt;Facebook blue&lt;/Highlight&gt; !
     </entry>
     <entry>
         <title type="html"><![CDATA[Translate your site]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/tutorial-extras/translate-your-site</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/tutorial-extras/translate-your-site"/>
+        <id>https://milanskip.github.io/AboutMe/blog/tutorial-extras/translate-your-site</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/tutorial-extras/translate-your-site"/>
         <updated>2025-02-25T10:25:37.000Z</updated>
         <summary type="html"><![CDATA[Let's translate docs/intro.md to French.]]></summary>
         <content type="html"><![CDATA[<p>Let's translate <code>docs/intro.md</code> to French.</p>
@@ -320,7 +320,7 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 };
 </code></pre>
 <p>The locale dropdown now appears in your navbar:</p>
-<p><img alt="Locale Dropdown" src="https://ragamuffin85.github.io/ThatsMe/assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png" width="370" height="302"></p>
+<p><img alt="Locale Dropdown" src="https://milanskip.github.io/AboutMe/assets/images/localeDropdown-f0d995e751e7656a1b0dbbc1134e49c2.png" width="370" height="302"></p>
 <h2 id="build-your-localized-site">Build your localized site</h2>
 <p>Build your site for a specific locale:</p>
 <pre><code class="language-bash">npm run build -- --locale fr
@@ -331,8 +331,8 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/welcome</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/welcome"/>
+        <id>https://milanskip.github.io/AboutMe/blog/welcome</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
         <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog">blog plugin</a>.</p>
@@ -345,7 +345,7 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img alt="Docusaurus Plushie" src="https://ragamuffin85.github.io/ThatsMe/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p>
+<p><img alt="Docusaurus Plushie" src="https://milanskip.github.io/AboutMe/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p>
 <p>The blog supports tags as well!</p>
 <p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
         <author>
@@ -362,8 +362,8 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/mdx-blog-post</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/mdx-blog-post"/>
+        <id>https://milanskip.github.io/AboutMe/blog/mdx-blog-post</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p>
@@ -381,8 +381,8 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
     </entry>
     <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/long-blog-post</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/long-blog-post"/>
+        <id>https://milanskip.github.io/AboutMe/blog/long-blog-post</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/long-blog-post"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
         <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -412,8 +412,8 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://ragamuffin85.github.io/ThatsMe/blog/first-blog-post</id>
-        <link href="https://ragamuffin85.github.io/ThatsMe/blog/first-blog-post"/>
+        <id>https://milanskip.github.io/AboutMe/blog/first-blog-post</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
