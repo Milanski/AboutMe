@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'About Me',
-  tagline: 'Guess who am I',
+  title: 'Milancho Panovski',
+  tagline: 'Senior Software Architect/Developer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -144,7 +144,7 @@ const config = {
             // ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} That's Me, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Milanski. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
