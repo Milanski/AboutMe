@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://milanskip.github.io/AboutMe/blog</id>
-    <title>About Me Blog</title>
+    <title>Milancho Panovski Blog</title>
     <updated>2025-02-25T10:25:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://milanskip.github.io/AboutMe/blog"/>
-    <subtitle>About Me Blog</subtitle>
+    <subtitle>Milancho Panovski Blog</subtitle>
     <icon>https://milanskip.github.io/AboutMe/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Create a Blog Post]]></title>
