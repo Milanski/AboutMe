@@ -3,6 +3,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -15,6 +18,15 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
+          <Box sx={{ display: 'flex' }}>
+              <Box m="auto">
+                  <Avatar
+                          alt="Milancho Panovski"
+                          src={useBaseUrl('/img/cv_pic.png')}
+                          sx={{ width: 150, height: 150, m: 2 }}
+                  />
+              </Box>
+          </Box>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className="container">
                   <h2>💼 Professional Summary</h2>
