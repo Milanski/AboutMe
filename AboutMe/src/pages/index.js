@@ -31,7 +31,7 @@ function HomepageHeader() {
           <div className="container">
                   <h2>💼 Professional Summary</h2>
                   <p>
-                      <strong> Distinguished Software Architect and Developer </strong>
+                      <strong> Principal Software Architect and Developer </strong>
                       with extensive expertise in designing
                       and developing scalable, cloud-based solutions. Proficient
                       in <strong>Java, Spring, Kubernetes, Azure,
