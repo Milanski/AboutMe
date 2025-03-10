@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Milancho Panovski',
-  tagline: 'Principle Software Architect and Developer / Tech Lead',
+  tagline: 'Principle Software Architect and Developer',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
