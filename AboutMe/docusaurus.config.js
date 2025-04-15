@@ -83,8 +83,8 @@ const config = {
       navbar: {
         title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Milancho Panovski',
+          src: 'img/logo_pic.png',
         },
         items: [
           {

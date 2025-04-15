@@ -58,14 +58,13 @@ function HomepageHeader() {
                   <p>
                       Proficient in <strong>test-driven development (TDD) and
                       automated testing</strong> with tools such as
-                      <strong>JUnit, Mockito, RestAssured, Testcontainers,
+                      <strong> JUnit, Mockito, RestAssured, Testcontainers,
                           WireMock, PowerMock, and ArchUnit</strong>.
                       Experienced in <strong>API documentation</strong> and
                       architectural visualization using <strong>OpenAPI,
                       SwaggerUI,
                       Docusaurus, and PlantUML</strong>.
                   </p>
-
           </div>
           <div className={styles.buttons}>
               <Link
