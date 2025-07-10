@@ -55,7 +55,7 @@ sidebar_position: 3
   - Initial development: Minimal, using existing source code.
   - Hosting: Cloud-based (e.g., AWS IoT Core for OCPP integration).[](https://aws.amazon.com/blogs/iot/building-an-ocpp-compliant-electric-vehicle-charge-point-operator-solution-using-aws-iot-core/)
   - Marketing: Targeted outreach to local CPOs and property managers.
-- **Pricing**: Affordable tiers for small operators (e.g., $50–$200/month based on charger count).
+- **Pricing**: Affordable tiers for small operators (e.g., 50€–200€/month based on charger count).
 
 ##  7. Partnership Model (Win-Win)
 - **For Small CPOs**:
