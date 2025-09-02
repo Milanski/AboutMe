@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthats_me=self.webpackChunkthats_me||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Acquiring CPMS Source Code for a New Venture","permalink":"/AboutMe/blog/cpms/cpms-rocket","unlisted":false,"date":"2025-07-07T20:41:20.000Z"}]}')}}]);

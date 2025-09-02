@@ -2,11 +2,195 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://milanskip.github.io/AboutMe/blog</id>
     <title>Milancho Panovski Blog</title>
-    <updated>2025-07-07T20:41:20.000Z</updated>
+    <updated>2025-09-02T21:40:20.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://milanskip.github.io/AboutMe/blog"/>
     <subtitle>Milancho Panovski Blog</subtitle>
     <icon>https://milanskip.github.io/AboutMe/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[EV SaaS 12-Month Plan (Side Project)]]></title>
+        <id>https://milanskip.github.io/AboutMe/blog/cpms/cpms-next-step</id>
+        <link href="https://milanskip.github.io/AboutMe/blog/cpms/cpms-next-step"/>
+        <updated>2025-09-02T21:40:20.000Z</updated>
+        <summary type="html"><![CDATA[Assumptions]]></summary>
+        <content type="html"><![CDATA[<h2 id="assumptions">Assumptions</h2>
+<ul>
+<li>Development effort is <strong>part-time (~10–20h/week)</strong> for the next 12 months.</li>
+<li>Business focus: validation of product-market fit and onboarding first pilot customers.</li>
+<li>The company will not hand over the project for free → we propose a <strong>license/revenue sharing model</strong>.</li>
+</ul>
+<hr>
+<h2 id="strategic-context">Strategic Context</h2>
+<ul>
+<li>The system has already been <strong>proven in production with 1,500 company charging stations</strong> over several years.</li>
+<li>Core technical features are <strong>already implemented and tested</strong> (reporting, tariffs, dashboards, monitoring).</li>
+<li>Stability and integrations have been validated.</li>
+<li>This makes the system <strong>market-ready</strong> – only business, polishing, and scaling steps are needed.</li>
+</ul>
+<hr>
+<h2 id="phase-1-foundation-months-13">Phase 1: Foundation (Months 1–3)</h2>
+<h3 id="technical">Technical</h3>
+<ul>
+<li>Clean up codebase:<!-- -->
+<ul>
+<li>Remove unused modules, restructure project, update dependencies.</li>
+<li>Make the system fully runnable (end-to-end flows).</li>
+</ul>
+</li>
+<li>Integrate new payment provider (Stripe/Adyen/PayPal):<!-- -->
+<ul>
+<li>Sandbox integration first.</li>
+<li>Prepare billing APIs and unit tests.</li>
+</ul>
+</li>
+</ul>
+<h3 id="business">Business</h3>
+<ul>
+<li>Define <strong>tariff model</strong>:<!-- -->
+<ul>
+<li><strong>Buildings</strong>: €49–199/month subscription + €0.05 per charging session.</li>
+<li><strong>Fleets</strong>: €149–599/month depending on vehicle count + €2–3/vehicle.</li>
+</ul>
+</li>
+<li>Create landing page + 1-pager product intro.</li>
+<li>Identify 5–10 pilot prospects (buildings, SMEs with EV fleets).</li>
+</ul>
+<hr>
+<h2 id="phase-2-pilot-preparation-months-46">Phase 2: Pilot Preparation (Months 4–6)</h2>
+<h3 id="technical-1">Technical</h3>
+<ul>
+<li>Deploy demo system on local server.</li>
+<li>Create demo user flows.</li>
+<li>Simulate charging sessions for demo purposes.</li>
+</ul>
+<h3 id="business-1">Business</h3>
+<ul>
+<li>Reach out to pilot customers with demo.</li>
+<li>Offer <strong>free 3-month pilot</strong> for early adopters.</li>
+<li>Start collecting feedback on usability, pricing, and reporting needs.</li>
+</ul>
+<hr>
+<h2 id="phase-3-pilot-execution--stabilization-months-79">Phase 3: Pilot Execution &amp; Stabilization (Months 7–9)</h2>
+<h3 id="technical-2">Technical</h3>
+<ul>
+<li>Since core features are already implemented:<!-- -->
+<ul>
+<li><strong>Stabilize</strong>: ensure uptime, monitoring, automated alerts.</li>
+<li><strong>Polish UX/UI</strong>: small improvements to dashboard and tariff management.</li>
+<li><strong>Documentation</strong>: create admin manual + API documentation.</li>
+</ul>
+</li>
+<li>Optimize deployment pipeline for easier scaling (CI/CD).</li>
+</ul>
+<h3 id="business-2">Business</h3>
+<ul>
+<li>Convert <strong>1–2 pilot customers into paying users</strong>.</li>
+<li>Build partnerships with charger installers (offer SaaS as add-on).</li>
+<li>Publish 1 case study on LinkedIn / website.</li>
+</ul>
+<hr>
+<h2 id="phase-4-growth--validation-months-1012">Phase 4: Growth &amp; Validation (Months 10–12)</h2>
+<h3 id="technical-3">Technical</h3>
+<ul>
+<li>Add fleet-specific refinements:<!-- -->
+<ul>
+<li>Home charging reimbursement (manual upload of kWh &amp; receipts).</li>
+<li>Export to Excel/CSV for accounting.</li>
+</ul>
+</li>
+<li>Harden cloud deployment with backups, SLAs, and monitoring.</li>
+<li>Security review and GDPR compliance check.</li>
+</ul>
+<h3 id="business-3">Business</h3>
+<ul>
+<li>Target <strong>SMEs with 5–20 EVs</strong> for fleet pilots.</li>
+<li>Explore partnerships with <strong>leasing companies</strong> and <strong>EV dealerships</strong>.</li>
+<li>If demand is high:<!-- -->
+<ul>
+<li>Consider shifting from side project → part-time or full-time focus.</li>
+<li>Prepare investor pitch deck (for €200k–300k pre-seed).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="licensing-proposal">Licensing Proposal</h2>
+<p>Since the company invested in developing the software, we propose the following <strong>license model</strong>:</p>
+<h3 id="option-a-revenue-share-recommended">Option A: Revenue Share (Recommended)</h3>
+<ul>
+<li>We operate the system, cover costs, and commercialize it.</li>
+<li>Company receives <strong>15% of net revenues</strong> (after payment provider fees &amp; cloud hosting).</li>
+<li>Agreement duration: <strong>3 years</strong>, then renegotiation.</li>
+</ul>
+<h3 id="option-b-hybrid-model">Option B: Hybrid Model</h3>
+<ul>
+<li>Small upfront license fee (e.g. €10k–20k).</li>
+<li>Plus <strong>10% revenue share</strong> for 3 years.</li>
+<li>After 3 years → buyout option (e.g. €50k or multiple of ARR).</li>
+</ul>
+<h3 id="option-c-equity-swap">Option C: Equity Swap</h3>
+<ul>
+<li>Instead of revenue share, company gets <strong>5–10% equity</strong> in the new venture.</li>
+<li>Works better if we expect VC funding later.</li>
+</ul>
+<p><strong>Recommendation</strong>: Option A (Revenue Share 15% for 3 years) – simple, fair, low risk.</p>
+<hr>
+<h2 id="cloud-operations-cost-estimate-awsazure">Cloud Operations Cost Estimate (AWS/Azure)</h2>
+<p><strong>Setup</strong>: 5 microservices, medium size (~1 vCPU, 2–4 GB RAM each).<br>
+<!-- -->Target: 1,000–5,000 charging sessions/month in year 1.</p>
+<h3 id="estimated-monthly-costs">Estimated Monthly Costs</h3>
+<ul>
+<li><strong>Compute (5 services, containerized)</strong> → €250–400</li>
+<li><strong>Database (Postgres/MySQL, 50GB)</strong> → €100–150</li>
+<li><strong>Storage (logs, backups &lt; 200GB)</strong> → €20–30</li>
+<li><strong>Traffic (outbound ~200–300GB)</strong> → €20–40</li>
+<li><strong>Monitoring, logging, DNS, security</strong> → €50–80</li>
+</ul>
+<p>👉 <strong>Total: €450–700/month (~€5,400–8,400/year)</strong></p>
+<h3 id="lean-startup-option">Lean Startup Option</h3>
+<ul>
+<li>Run all services on one 2–4 vCPU VM → ~€200–300/month.</li>
+<li>Use smaller DB tier.</li>
+<li>Optimize logs/monitoring.</li>
+</ul>
+<hr>
+<h2 id="strategic-opportunity-leveraging-existing-stations">Strategic Opportunity: Leveraging Existing Stations</h2>
+<p>Although our plan is viable with a <strong>demo-first approach</strong>, there is a unique opportunity:</p>
+<ul>
+<li>The system already successfully managed <strong>1,500 company charging stations</strong> for several years.</li>
+<li>This provides <strong>proof of stability and scalability</strong>.</li>
+<li>If the company grants us access to a portion of these stations, we can:<!-- -->
+<ul>
+<li>Deploy live system to cloud (Azure/AWS).</li>
+<li>Run real payment flows immediately.</li>
+<li>Generate early revenues from day one.</li>
+<li>Build a stronger case for future investment.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="gmbh-formation--timing-proposal">GmbH Formation – Timing Proposal</h2>
+<ul>
+<li>We acknowledge the company’s request to create a GmbH.</li>
+<li>However, GmbH setup in Germany costs <strong>~€25k in capital commitment + legal/admin costs</strong>.</li>
+<li>We propose a <strong>phased approach</strong>:<!-- -->
+<ol>
+<li><strong>Short-term (0–12 months):</strong> Operate under personal/freelance setup with revenue share.</li>
+<li><strong>Mid-term (12–24 months):</strong> Once &gt;€50k ARR or &gt;5 customers are reached → establish GmbH.</li>
+<li>Company can be invited as a <strong>minor shareholder</strong> if desired.</li>
+</ol>
+</li>
+</ul>
+<p>This ensures we <strong>minimize upfront cost &amp; risk</strong>, while focusing on proving traction first.</p>
+<hr>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong>12-month plan</strong> is viable with a demo-first approach, leading to 2–3 paying customers.</li>
+<li><strong>License model</strong> ensures company benefits immediately (15% revenue share).</li>
+<li><strong>Cloud costs</strong> are manageable (~€500/month baseline).</li>
+<li><strong>Strategic upside</strong>: If company grants access to existing stations, we accelerate revenue and adoption.</li>
+<li><strong>GmbH proposal</strong>: Establish only once revenues are proven, not prematurely.</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Acquiring CPMS Source Code for a New Venture]]></title>
         <id>https://milanskip.github.io/AboutMe/blog/cpms/cpms-rocket</id>
