@@ -8,7 +8,7 @@
     <subtitle>Milancho Panovski Blog</subtitle>
     <icon>https://milanskip.github.io/AboutMe/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[EV SaaS 12-Month Plan (Side Project)]]></title>
+        <title type="html"><![CDATA[EV SaaS 12-Month Plan]]></title>
         <id>https://milanskip.github.io/AboutMe/blog/cpms/cpms-next-step</id>
         <link href="https://milanskip.github.io/AboutMe/blog/cpms/cpms-next-step"/>
         <updated>2025-09-02T21:40:20.000Z</updated>
@@ -16,104 +16,137 @@
         <content type="html"><![CDATA[<h2 id="assumptions">Assumptions</h2>
 <ul>
 <li>Development effort is <strong>part-time (~10–20h/week)</strong> for the next 12 months.</li>
-<li>Business focus: validation of product-market fit and onboarding first pilot customers.</li>
-<li>The company will not hand over the project for free → we propose a <strong>license/revenue sharing model</strong>.</li>
+<li>The system is <strong>almost ready to go live</strong>: it has been running in production for <strong>10 years</strong> and already managed <strong>1,500 company charging stations</strong> successfully.</li>
+<li>Business focus: prepare a demo, attract first pilot customers, and validate market demand.</li>
+<li>We start this as a <strong>side project</strong> to reduce financial risk and because we will need other income sources in the beginning.</li>
+<li>If we see strong customer interest, we are prepared to <strong>switch to full-time</strong> operation.</li>
+</ul>
+<hr>
+<h2 id="why-a-side-project-first">Why a Side Project First?</h2>
+<ul>
+<li>The system is technically mature → we don’t need to invest months of development.</li>
+<li>What we need now is <strong>marketing, demos, and customer pilots</strong>, not heavy coding.</li>
+<li>A demo environment will allow us to showcase the system quickly.</li>
+<li>Operating as a side project keeps <strong>costs very low</strong>, while still generating first revenues.</li>
+<li>Once traction is proven (first paying customers), we can scale into a full company (GmbH).</li>
 </ul>
 <hr>
 <h2 id="strategic-context">Strategic Context</h2>
 <ul>
-<li>The system has already been <strong>proven in production with 1,500 company charging stations</strong> over several years.</li>
-<li>Core technical features are <strong>already implemented and tested</strong> (reporting, tariffs, dashboards, monitoring).</li>
-<li>Stability and integrations have been validated.</li>
-<li>This makes the system <strong>market-ready</strong> – only business, polishing, and scaling steps are needed.</li>
+<li>The system has been <strong>in production for 10 years</strong> with proven reliability.</li>
+<li>Already integrated with <strong>1,500 charging stations</strong> at company level.</li>
+<li>Features such as tariffs, reporting, dashboards, and monitoring are already implemented.</li>
+<li>Our task is now <strong>commercialization and scaling</strong>, not building from scratch.</li>
 </ul>
 <hr>
 <h2 id="phase-1-foundation-months-13">Phase 1: Foundation (Months 1–3)</h2>
 <h3 id="technical">Technical</h3>
 <ul>
-<li>Clean up codebase:<!-- -->
-<ul>
-<li>Remove unused modules, restructure project, update dependencies.</li>
-<li>Make the system fully runnable (end-to-end flows).</li>
-</ul>
-</li>
-<li>Integrate new payment provider (Stripe/Adyen/PayPal):<!-- -->
-<ul>
-<li>Sandbox integration first.</li>
-<li>Prepare billing APIs and unit tests.</li>
-</ul>
-</li>
+<li>Clean up codebase: update dependencies, improve maintainability.</li>
+<li>Integrate new payment provider (Stripe/Adyen/PayPal, sandbox).</li>
+<li>Prepare demo system for marketing and customer presentations.</li>
 </ul>
 <h3 id="business">Business</h3>
 <ul>
-<li>Define <strong>tariff model</strong>:<!-- -->
-<ul>
-<li><strong>Buildings</strong>: €49–199/month subscription + €0.05 per charging session.</li>
-<li><strong>Fleets</strong>: €149–599/month depending on vehicle count + €2–3/vehicle.</li>
-</ul>
-</li>
-<li>Create landing page + 1-pager product intro.</li>
-<li>Identify 5–10 pilot prospects (buildings, SMEs with EV fleets).</li>
+<li>Define <strong>tariff model</strong> (buildings &amp; fleets).</li>
+<li>Create landing page + 1-pager intro.</li>
+<li>Identify 5–10 pilot customers (buildings, SMEs with EV fleets).</li>
 </ul>
 <hr>
 <h2 id="phase-2-pilot-preparation-months-46">Phase 2: Pilot Preparation (Months 4–6)</h2>
 <h3 id="technical-1">Technical</h3>
 <ul>
-<li>Deploy demo system on local server.</li>
-<li>Create demo user flows.</li>
-<li>Simulate charging sessions for demo purposes.</li>
+<li>Deploy demo system on local server or cloud (lean setup).</li>
+<li>Create demo flows (admin dashboard, driver app mock).</li>
+<li>Simulate charging sessions for demos.</li>
 </ul>
 <h3 id="business-1">Business</h3>
 <ul>
-<li>Reach out to pilot customers with demo.</li>
-<li>Offer <strong>free 3-month pilot</strong> for early adopters.</li>
-<li>Start collecting feedback on usability, pricing, and reporting needs.</li>
+<li>Approach pilot customers with demo.</li>
+<li>Offer <strong>3-month free trial</strong> for early adopters.</li>
+<li>Collect customer feedback (usability, reporting, pricing).</li>
 </ul>
 <hr>
 <h2 id="phase-3-pilot-execution--stabilization-months-79">Phase 3: Pilot Execution &amp; Stabilization (Months 7–9)</h2>
 <h3 id="technical-2">Technical</h3>
 <ul>
-<li>Since core features are already implemented:<!-- -->
-<ul>
-<li><strong>Stabilize</strong>: ensure uptime, monitoring, automated alerts.</li>
-<li><strong>Polish UX/UI</strong>: small improvements to dashboard and tariff management.</li>
-<li><strong>Documentation</strong>: create admin manual + API documentation.</li>
-</ul>
-</li>
-<li>Optimize deployment pipeline for easier scaling (CI/CD).</li>
+<li>Stabilize and optimize deployment (CI/CD, monitoring).</li>
+<li>Prepare user documentation and API docs.</li>
+<li>Minor UX/UI improvements (tariff management, reports).</li>
 </ul>
 <h3 id="business-2">Business</h3>
 <ul>
-<li>Convert <strong>1–2 pilot customers into paying users</strong>.</li>
-<li>Build partnerships with charger installers (offer SaaS as add-on).</li>
-<li>Publish 1 case study on LinkedIn / website.</li>
+<li>Convert <strong>1–2 pilots into paying customers</strong>.</li>
+<li>Build partnerships with charger installers (SaaS add-on).</li>
+<li>Publish first case study to show traction.</li>
 </ul>
 <hr>
 <h2 id="phase-4-growth--validation-months-1012">Phase 4: Growth &amp; Validation (Months 10–12)</h2>
 <h3 id="technical-3">Technical</h3>
 <ul>
-<li>Add fleet-specific refinements:<!-- -->
-<ul>
-<li>Home charging reimbursement (manual upload of kWh &amp; receipts).</li>
-<li>Export to Excel/CSV for accounting.</li>
-</ul>
-</li>
-<li>Harden cloud deployment with backups, SLAs, and monitoring.</li>
-<li>Security review and GDPR compliance check.</li>
+<li>Add refinements for fleets (home charging reimbursement, export for accounting).</li>
+<li>Strengthen security and GDPR compliance.</li>
+<li>Harden cloud deployment with backups and SLAs.</li>
 </ul>
 <h3 id="business-3">Business</h3>
 <ul>
 <li>Target <strong>SMEs with 5–20 EVs</strong> for fleet pilots.</li>
-<li>Explore partnerships with <strong>leasing companies</strong> and <strong>EV dealerships</strong>.</li>
-<li>If demand is high:<!-- -->
-<ul>
-<li>Consider shifting from side project → part-time or full-time focus.</li>
-<li>Prepare investor pitch deck (for €200k–300k pre-seed).</li>
-</ul>
-</li>
+<li>Explore partnerships with <strong>leasing companies &amp; EV dealerships</strong>.</li>
+<li>If demand is high → shift from side project → full-time business.</li>
+<li>Prepare investor pitch deck (if expansion needed).</li>
 </ul>
 <hr>
-<h2 id="licensing-proposal">Licensing Proposal</h2>
+<h2 id="profit-model">Profit Model</h2>
+<h3 id="revenue-streams">Revenue Streams</h3>
+<ol>
+<li>
+<p><strong>Building Managers / Multi-Tenant Houses</strong></p>
+<ul>
+<li>Subscription: €49–199/month depending on size (#stations, tenants).</li>
+<li>Transaction fee: €0.05 per charging session.</li>
+</ul>
+</li>
+<li>
+<p><strong>Company Fleets (SMEs)</strong></p>
+<ul>
+<li>Subscription: €149–599/month depending on fleet size.</li>
+<li>Vehicle fee: €2–3 per EV/month.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional Add-Ons</strong></p>
+<ul>
+<li>White-label branding: €500 setup.</li>
+<li>API access for developers: €99/month.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="cost-structure-lean-start">Cost Structure (Lean Start)</h3>
+<ul>
+<li><strong>Cloud operations</strong>: ~€450–700/month (€5,400–8,400/year).</li>
+<li><strong>Marketing (website, materials, LinkedIn ads)</strong>: ~€2k–3k in Year 1.</li>
+<li><strong>Other (domain, admin, accounting)</strong>: ~€1k–2k/year.</li>
+</ul>
+<p>👉 Total baseline costs in Year 1: <strong>~€12k</strong> (very lean).</p>
+<hr>
+<h3 id="profitability-analysis">Profitability Analysis</h3>
+<ul>
+<li>Average revenue per charging station: <strong>€10–15/month = ~€150/year</strong>.</li>
+<li>Yearly costs: <strong>~€12k</strong>.</li>
+</ul>
+<p><strong>Break-even = ~80 stations.</strong></p>
+<h4 id="scenarios">Scenarios</h4>
+<ul>
+<li><strong>80 stations</strong> → ~€12k revenue → break-even.</li>
+<li><strong>200 stations</strong> → ~€30k revenue → ~€18k profit.</li>
+<li><strong>500 stations</strong> → ~€75k revenue → ~€63k profit.</li>
+<li><strong>1,500 stations</strong> (historic level) → ~€225k revenue → <strong>highly profitable SaaS business</strong>.</li>
+</ul>
+<p>👉 This shows that profitability is achievable with a relatively small number of stations.<br>
+<!-- -->👉 With access to part of the company’s already integrated 1,500 stations, we could be profitable from day one.</p>
+<hr>
+<h2 id="licensing--gewinnbeteiligung-proposal">Licensing / Gewinnbeteiligung Proposal</h2>
 <p>Since the company invested in developing the software, we propose the following <strong>license model</strong>:</p>
 <h3 id="option-a-revenue-share-recommended">Option A: Revenue Share (Recommended)</h3>
 <ul>
@@ -134,47 +167,27 @@
 </ul>
 <p><strong>Recommendation</strong>: Option A (Revenue Share 15% for 3 years) – simple, fair, low risk.</p>
 <hr>
-<h2 id="cloud-operations-cost-estimate-awsazure">Cloud Operations Cost Estimate (AWS/Azure)</h2>
-<p><strong>Setup</strong>: 5 microservices, medium size (~1 vCPU, 2–4 GB RAM each).<br>
-<!-- -->Target: 1,000–5,000 charging sessions/month in year 1.</p>
-<h3 id="estimated-monthly-costs">Estimated Monthly Costs</h3>
-<ul>
-<li><strong>Compute (5 services, containerized)</strong> → €250–400</li>
-<li><strong>Database (Postgres/MySQL, 50GB)</strong> → €100–150</li>
-<li><strong>Storage (logs, backups &lt; 200GB)</strong> → €20–30</li>
-<li><strong>Traffic (outbound ~200–300GB)</strong> → €20–40</li>
-<li><strong>Monitoring, logging, DNS, security</strong> → €50–80</li>
-</ul>
-<p>👉 <strong>Total: €450–700/month (~€5,400–8,400/year)</strong></p>
-<h3 id="lean-startup-option">Lean Startup Option</h3>
-<ul>
-<li>Run all services on one 2–4 vCPU VM → ~€200–300/month.</li>
-<li>Use smaller DB tier.</li>
-<li>Optimize logs/monitoring.</li>
-</ul>
-<hr>
 <h2 id="strategic-opportunity-leveraging-existing-stations">Strategic Opportunity: Leveraging Existing Stations</h2>
-<p>Although our plan is viable with a <strong>demo-first approach</strong>, there is a unique opportunity:</p>
+<p>Our plan is viable with a demo-first approach.<br>
+<!-- -->But there is a <strong>unique opportunity</strong>:</p>
 <ul>
-<li>The system already successfully managed <strong>1,500 company charging stations</strong> for several years.</li>
-<li>This provides <strong>proof of stability and scalability</strong>.</li>
-<li>If the company grants us access to a portion of these stations, we can:<!-- -->
+<li>The system already successfully managed <strong>1,500 company charging stations</strong> for years.</li>
+<li>If the company grants us access to even a <strong>portion of these stations</strong>:<!-- -->
 <ul>
-<li>Deploy live system to cloud (Azure/AWS).</li>
-<li>Run real payment flows immediately.</li>
+<li>We can onboard live customers immediately.</li>
+<li>Run real payment flows.</li>
 <li>Generate early revenues from day one.</li>
-<li>Build a stronger case for future investment.</li>
+<li>Stronger business case for scaling &amp; GmbH formation.</li>
 </ul>
 </li>
 </ul>
 <hr>
 <h2 id="gmbh-formation--timing-proposal">GmbH Formation – Timing Proposal</h2>
 <ul>
-<li>We acknowledge the company’s request to create a GmbH.</li>
-<li>However, GmbH setup in Germany costs <strong>~€25k in capital commitment + legal/admin costs</strong>.</li>
+<li>GmbH setup in Germany costs <strong>~€25k capital + legal/admin costs</strong>.</li>
 <li>We propose a <strong>phased approach</strong>:<!-- -->
 <ol>
-<li><strong>Short-term (0–12 months):</strong> Operate under personal/freelance setup with revenue share.</li>
+<li><strong>Short-term (0–12 months):</strong> Operate lean under personal/freelance setup with revenue share.</li>
 <li><strong>Mid-term (12–24 months):</strong> Once &gt;€50k ARR or &gt;5 customers are reached → establish GmbH.</li>
 <li>Company can be invited as a <strong>minor shareholder</strong> if desired.</li>
 </ol>
@@ -184,11 +197,14 @@
 <hr>
 <h2 id="summary">Summary</h2>
 <ul>
-<li><strong>12-month plan</strong> is viable with a demo-first approach, leading to 2–3 paying customers.</li>
-<li><strong>License model</strong> ensures company benefits immediately (15% revenue share).</li>
-<li><strong>Cloud costs</strong> are manageable (~€500/month baseline).</li>
-<li><strong>Strategic upside</strong>: If company grants access to existing stations, we accelerate revenue and adoption.</li>
-<li><strong>GmbH proposal</strong>: Establish only once revenues are proven, not prematurely.</li>
+<li>System is <strong>technically ready</strong>: proven in production for 10 years, 1,500 stations integrated.</li>
+<li>We start as a <strong>side project</strong> for cost efficiency and to build a demo for marketing.</li>
+<li>Profit model is clear: low costs (~€12k/year) + scalable subscriptions.</li>
+<li>Break-even with only <strong>80 stations</strong>, very achievable.</li>
+<li>Strong upside: with 200–500 stations → profitable, with 1,500 → six-figure SaaS.</li>
+<li>Company benefits immediately via <strong>revenue share</strong> (15%).</li>
+<li>If existing stations are opened to us, revenue can start immediately.</li>
+<li>GmbH will follow once revenue justifies it.</li>
 </ul>]]></content>
     </entry>
     <entry>
